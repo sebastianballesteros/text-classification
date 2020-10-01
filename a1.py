@@ -1,12 +1,8 @@
 '''
 Sebastian Ballesteros
-This is an implementation of
 '''
 
 '''
-Algorithm Definitions:
-population_weights_matrix - array of weights representated by matrices, mainly for ANN operations
-population_weights_vector - array of weights represented by vectos, mainly for GA operations
 '''
 
 ############################## IMPORTS  ########################################
@@ -47,12 +43,6 @@ TRAIN_PERCENTAGE = 0.9
 TEST_PERCENTAGE = 0.1
 SENTENCES_COUNT = 10662
 DATA_DIRECTORY = r'./rt-polaritydata'
-MODELS = [
-    MultinomialNB(),
-    LogisticRegression(),
-    LinearSVC(),
-    BernoulliNB()
-]
 
 ###########################  HELPER FUNCTIONS ##################################
 def read_file(filename):
